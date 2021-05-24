@@ -3,7 +3,7 @@ services:
   swaggerui:
     image: swaggerapi/swagger-ui
     volumes:
-      - ./public:/foo
+      - ./doc:/foo
     environment:
       - SWAGGER_JSON=/foo/openapi.yml
     ports:
