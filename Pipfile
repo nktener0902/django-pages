@@ -8,6 +8,8 @@ django = "*"
 djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
+pyyaml = "*"
+uritemplate = "*"
 
 [dev-packages]
 
