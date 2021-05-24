@@ -1,0 +1,10 @@
+version: '3'
+services:
+  swaggerui:
+    image: swaggerapi/swagger-ui
+    volumes:
+      - ./public:/foo
+    environment:
+      - SWAGGER_JSON=/foo/openapi.yml
+    ports:
+      - '8080:8080'
